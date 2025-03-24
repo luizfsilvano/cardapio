@@ -1,50 +1,30 @@
-# Welcome to your Expo app 👋
+# 🍔 Lanchonete Online
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Este é um aplicativo de lanchonete desenvolvido em **React Native com Expo**, com o objetivo de simular o fluxo completo de uma compra online de alimentos. O projeto foi criado para fins educacionais e demonstra práticas modernas de desenvolvimento mobile.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Funcionalidades
 
-   ```bash
-   npm install
-   ```
+- 📋 Visualização de cardápio com:
+  - Nome, descrição, imagem e preço de cada item
+- 🛒 Adição de produtos ao carrinho
+  - Contador dinâmico no ícone de carrinho
+  - Agrupamento de itens iguais no resumo
+- 👤 Cadastro e login de cliente
+  - Campos: nome, e-mail, telefone, endereço e senha
+  - Login simulado por e-mail e senha
+  - Edição e logout do cliente
+- ✅ Finalização de pedido
+  - Protegida: só permite se o cliente estiver logado
+  - Mostra informações do cliente antes de confirmar
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
+## 🧪 Tecnologias e Bibliotecas
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- **React Native + Expo**
+- **Expo Router** para navegação
+- **Context API** para gerenciamento de estado global (Carrinho e Cliente)
+- **Styled com StyleSheet**
+- **React Native Vector Icons** (`@expo/vector-icons`)
